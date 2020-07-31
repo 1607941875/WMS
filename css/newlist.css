@@ -1,0 +1,224 @@
+
+/* 广告位 */
+.ad {
+
+  
+    width: 1920px;
+    margin: 0 auto;
+}
+
+
+/* 主体内容 */
+.case_container {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding-bottom: 300px;
+}
+
+.case {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.case .left {
+    width: 330px;
+    position: relative;
+    left: 0;
+    top: -47px;
+   
+}
+
+.case .left>div {
+    height: 80px;
+    background: url(../images/newlist/img02.jpg) no-repeat;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.case .left>div>h1 {
+    font-size: 30px;
+}
+
+.case .left>div>h1>p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.case .left>div>p::before,
+.case .left>div>p::after {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 2px;
+    margin-bottom: 4px;
+    background-color: #959595;
+}
+
+.case .left>div>p::before {
+    margin-right: 10px;
+}
+
+.case .left>div>p::after {
+    margin-left: 10px;
+}
+
+
+.case .left ul {
+    text-align: center;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 15px 10px;
+}
+
+.case .left ul>li {
+    float: left;
+    width: 33%;
+    font-size: 14px;
+    height: 112px;
+    
+}
+
+.case .left ul>li img {
+    display: block;
+    margin: 0 auto;
+}
+
+.case .left ul>li:hover {
+    background-color: #47a9e2;
+    color: #fff;
+}
+
+.case .left ul>li:hover img:first-child {
+    display: none;
+}
+
+.case .left ul>li img:nth-child(2) {
+    display: none;
+}
+
+.case .left ul>li:hover img:nth-child(2) {
+    display: block;
+}
+
+.case .left ul>li:nth-child(2) {
+    border-left: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+}
+
+.case .left ul>li h5 {
+    font-size: 10px;
+}
+
+
+.case .right {
+    width: 812px;
+}
+
+.case .right .title {
+    text-align: right;
+    color: #838383;
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: 600;
+}
+
+.case .right>p {
+    font-size: 10px;
+    color: #989898;
+}
+
+.case .right>h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.case .right ul li {
+    background-color: #fff;
+    position: relative;
+    padding-right: 28px;
+    margin-bottom: 30px;
+}
+
+.case .right .li_content {
+    width: 402px;
+    margin-left: 30px;
+}
+
+.case .right .li_content>h1 {
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.case .right .li_content>p {
+    font-size: 12px;
+    color: #585858;
+    margin-top: 14px;
+    line-height: 18px;
+}
+
+.case .right .li_content .li_time {
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+
+.case .right .li_content .li_time h3:first-child {
+    font-size: 14px;
+    color: #8d8d8d;
+}
+
+.case .right .li_content .li_time h3:first-child::after {
+    content: '';
+    width: 35px;
+    height: 2px;
+    display: block;
+    background-color: #7f7f7f;
+}
+
+.case .right .li_content .li_time h3:last-child {
+    font-size: 12px;
+    color: #000;
+}
+
+
+
+.case .right .li_detail {
+    position: absolute;
+    right: 28px;
+    bottom: 12px;
+}
+
+.case .right .yema {
+    text-align: right;
+    margin-top: 60px;
+}
+
+.case .right .li_detail h3 {
+    font-size: 12px;
+}
+
+.case .right .yema a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    background-color: #fff;
+}
+
+.case .right .yema a:hover {
+    color: #fff;
+    background-color: #47a9e2;
+
+}
+
+.case .right .yema a:last-child {
+    width: 80px;
+}
+
+.case .right .yema a:first-child {
+    color: #fff;
+    background-color: #47a9e2;
+    border-color: #47a9e2;
+}

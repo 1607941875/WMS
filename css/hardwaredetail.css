@@ -1,0 +1,186 @@
+/* 主体内容 */
+.case_container {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-bottom: 300px;
+}
+
+.case {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.case .left {
+  width: 330px;
+  position: relative;
+  left: 0;
+  top: -47px;
+}
+
+.case .left>div {
+  height: 80px;
+  background: url(../images/caselist/img02.jpg) no-repeat;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.case .left>div>h1 {
+  font-size: 30px;
+}
+
+.case .left>div>h1>p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.case .left>div>p::before,
+.case .left>div>p::after {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 2px;
+  margin-bottom: 4px;
+  background-color: #959595;
+}
+
+.case .left>div>p::before {
+  margin-right: 10px;
+}
+
+.case .left>div>p::after {
+  margin-left: 10px;
+}
+
+.case .left ul {
+  text-align: center;
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 15px 10px;
+}
+
+.case .left ul>li img {
+  display: block;
+  margin: 0 auto;
+}
+
+.case .left ul>li {
+  float: left;
+  width: 33%;
+  padding: 14px 0;
+  border-right: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.case .left ul>li .active {
+  display: none;
+}
+
+.case .left ul>li:hover {
+  background-color: #47a9e2;
+  color: #fff;
+}
+
+.case .left ul>li:hover .active {
+  display: block;
+}
+
+.case .left ul>li:hover img:first-child {
+  display: none;
+}
+
+.case .left ul>li:nth-child(3n) {
+  border-right: 0;
+}
+
+.case .left ul>li:nth-child(n+4) {
+  padding-bottom: 0;
+  border-bottom: 0;
+
+}
+
+.case .left ul>li h5 {
+  font-size: 14px;
+}
+
+.case .left ul>li p {
+  font-size: 10px;
+}
+
+.case .right {
+  width: 812px;
+}
+
+.case .right .title {
+  text-align: right;
+  color: #838383;
+  font-size: 16px;
+  margin-top: 16px;
+  font-weight: 600;
+}
+
+.case .right>p {
+  font-size: 10px;
+  color: #989898;
+}
+
+.case .right>h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.case .right .article {
+  background-color: #fff;
+  border-top: 1px solid #fff;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.case .right .article>h3 {
+  font-size: 16px;
+  margin: 40px 0 6px 0;
+}
+
+
+.right .article_content {
+  width: 708px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 12px;
+  position: relative;
+}
+
+.right .article_content .t {
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.right .article_content .desc {
+  line-height: 20px;
+  color: #585858;
+  margin-bottom: 26px;
+}
+
+.right .article_content .img_list {
+  margin: 12px 0 94px 0;
+}
+
+.case .right .golink,
+.case .right .goback {
+  font-size: 12px;
+  color: #585858;
+}
+
+.case .right .golink {
+  text-align: left;
+  line-height: 30px;
+}
+
+.case .right .golink em {
+  font-weight: 600;
+}
+
+.case .right .goback {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

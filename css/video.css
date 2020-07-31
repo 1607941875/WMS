@@ -1,0 +1,99 @@
+body {
+  background-color: #f2f2f2;
+}
+
+
+/* 主体部分 */
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 245px;
+}
+
+.main .title {
+  width: 330px;
+  height: 130px;
+  text-align: center;
+  overflow: hidden;
+  background: url(../images/contactus/bg_01.jpg) no-repeat;
+  position: relative;
+  top: -47px;
+}
+
+.main .title h1 {
+  font-size: 30px;
+  margin-top: 41px;
+}
+
+.main .title h3 {
+  font-size: 14px;
+  color: #707070;
+}
+
+.main .content ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main .content ul li {
+  width: 30%;
+  background-color: #fff;
+  margin-bottom: 35px;
+}
+
+.main .content ul li img {
+  display: block;
+  width: 100%;
+}
+
+.main .content ul li .inactive {
+  display: none;
+
+}
+
+.main .content ul li:hover .inactive {
+  display: block;
+
+}
+
+.main .content ul li:hover .active {
+  display: none;
+}
+
+
+.main .content ul li h3 {
+  font-size: 16px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.content .yema {
+  text-align: right;
+}
+
+.content .yema a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #cdcdcd;
+  text-align: center;
+  background-color: #fff;
+}
+
+.content .yema a:last-child {
+  width: 80px;
+}
+
+.content .yema a:hover {
+  background-color: #47a9e2;
+  color: #fff;
+}
+
+.content .yema a:first-child {
+  color: #fff;
+  background-color: #47a9e2;
+  border-color: #47a9e2;
+}

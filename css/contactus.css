@@ -1,0 +1,34 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 245px;
+}
+
+.main .title {
+  width: 330px;
+  height: 130px;
+  text-align: center;
+  overflow: hidden;
+  background: url(../images/contactus/bg_01.jpg) no-repeat;
+  position: relative;
+  top: -47px;
+}
+
+.main .title h1 {
+  font-size: 30px;
+  margin-top: 41px;
+}
+
+.main .title h3 {
+  font-size: 14px;
+  color: #707070;
+}
+.map{
+  margin: 0 auto;
+  width: 1200px;
+  height: 344px;
+}

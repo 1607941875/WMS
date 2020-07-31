@@ -1,0 +1,211 @@
+/* 导航 */
+/* .nav ul li:nth-child(3)::after{
+    display: block;
+}
+.nav ul li:nth-child(3) a {
+    color: #296c93;
+} */
+.ad img{
+display: block;
+width: 1850px;
+margin: 0 auto;
+}
+/* 硬件产品 */
+.pro{
+    background-color: #f2f2f2;
+}
+.pro .content{
+    width: 1200px;
+    /* height: 1000px; */
+    /* background-color: pink; */
+    margin: 0 auto;
+    padding-bottom: 275px;
+    position: relative;
+}
+.pro .content .pro_list{
+    width: 330px;
+    position: absolute;
+    left: 0;
+    top: -47px;
+}
+.pro .content .pro_list .pro_bg{
+    height: 130px;
+    background: url('../images/product/img02.jpg') no-repeat;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.pro .content .pro_list .pro_bg h3{
+    font-size: 30px;
+    padding-top: 40px;
+}
+.pro .content .pro_list .pro_bg span{
+    display: block;
+    font-size: 14px;
+    color: #494949;
+    font-weight: 700;
+}
+.pro .content .pro_list .pro_bg span::before{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 2px;
+    background-color: #959595;
+    margin-bottom: 4px;
+    margin-right: 8px;
+}
+.pro .content .pro_list .pro_bg span::after{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 2px;
+    background-color: #959595;
+    margin-bottom: 4px;
+    margin-left: 8px;
+}
+.pro .content .pro_list ul{
+    background-color: #fff;
+    padding: 15px 10px;
+}
+.pro .content .pro_list ul li{
+    width: 100px;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+}
+.pro .content .pro_list ul li:nth-child(3n){
+    border-right: 0;
+}
+.pro .content .pro_list ul li:nth-child(n+4){
+    border-bottom: 0;
+    padding-top: 20px;
+}
+.pro .content .pro_list ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.pro .content .pro_list ul li img{
+    width: 41px;
+    height: 43px;
+    margin-bottom: 15px;
+}
+.pro .content .pro_list ul li h4{
+    font-size: 14px;
+}
+.pro .content .pro_list ul li p{
+    font-size: 10px;
+    margin: 3px 0 12px;
+}
+.pro .content .mbx{
+    text-align: right;
+    font-size: 16px;
+    color: #6d6d6d;
+    padding-top: 14px;
+    margin-bottom: 15px;
+}
+.pro .content .mbx a{
+    color: #6d6d6d;
+}
+.pro .content .electron{
+    float: right;
+    width: 810px;
+}
+.pro .content .electron>p{
+    font-size: 10px;
+    color: #525252;
+}
+.pro .content .electron>h3{
+    font-size: 20px;
+    margin: 5px 0 10px;
+}
+.pro .content .electron ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pro .content .electron ul li{
+    width: 248px;
+    margin-bottom: 27px;
+    background-color: #fff;
+    border: 1px solid #bfbfbf;
+    text-align: center;
+}
+.pro .content .electron ul li:hover{
+    border: 1px solid #fff;
+    box-shadow: 0 0 30px #9e9b9b;
+}
+.pro .content .electron ul li img{
+    display: block;
+    width: 248px;
+    height: 208px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.pro .content .electron ul li h4{
+    font-size: 14px;
+    margin: 20px 38px 18px 22px ;
+}
+.pro .content .page ul{
+    display: flex;
+    justify-content: right;
+}
+.pro .content .page ul li a{
+    display: block;
+    background-color: #fff;
+    font-size: 12px;
+    border: 1px solid #bfbfbf;
+    margin-right: 5px;
+    padding: 10px 15px;
+}
+.pro .content .page ul li:nth-last-child(2){
+    margin-right: 14px;
+}
+.pro .content .page ul li a:hover{
+    background-color: #47a9e2;
+    color: #fff;
+    border: 1px solid #47a9e2;
+}
+
+/* 硬件产品详情 */
+.pro .content .electron .card{
+    background-color: #fff;
+    padding: 40px 47px;
+}
+.pro .content .electron .card h4{
+    font-size: 16px;
+    text-align: center;
+}
+.pro .content .electron .card h5{
+    font-size: 14px;
+    color: #3e3e3e;
+    margin-top: 30px;
+}
+.pro .content .electron .card p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 15px;
+    color: #686868;
+}
+
+.pro .content .electron .card .page2{
+    font-size: 12px;
+    margin-top: 70px;
+}
+.pro .content .electron .card .page2 .left{
+    float: left;
+}
+.pro .content .electron .card .page2 .left a{
+    display: block;
+    margin-bottom: 16px;
+    color: #8d8d8d
+}
+.pro .content .electron .card .page2>a{
+    display: block;
+    float: right;
+    margin-top: 19px;
+}
+.contact .code img{
+display: block;
+padding-top: 200px;
+padding-left: 120px;
+}

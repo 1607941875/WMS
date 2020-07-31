@@ -1,0 +1,299 @@
+.container {
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* 头部部分 */
+.header {
+  background-color: #4c4c4c;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+}
+
+.header .content {
+  /* 内容容器div */
+  width: 1200px;
+  /* 容器居中 */
+  margin: 0 auto;
+  color: white;
+  font-size: 12px;
+}
+
+.header .content>div:first-child {
+  margin-left: 35px;
+}
+
+.header .content>div img {
+  color: white;
+  height: 20px;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+/* 导航部分 */
+.nav {
+  width: 1200px;
+  height: 80px;
+  line-height: 80px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.nav>img {
+  position: absolute;
+  top: -35px;
+  left: 0;
+  -moz-box-shadow: 0px 0px 10px #D9D9D9;
+  -webkit-box-shadow: 0px 0px 10px #D9D9D9;
+  box-shadow: 0px 0px 10px #D9D9D9;
+
+}
+
+.nav>ul {
+  margin-left: 100px;
+}
+
+.nav>ul>li {
+  box-sizing: border-box;
+  float: left;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.nav>ul li:hover::after {
+  /* 导航li经过时，填充下面的颜色条 */
+  content: '';
+  display: block;
+  width: 120px;
+  height: 4px;
+  background-color: #47a9e2;
+  position: absolute;
+  bottom: 0;
+}
+
+.nav>ul>li:hover a {
+  color: #296c93;
+}
+
+.nav .search {
+  width: 150px;
+  height: 20px;
+  border-radius: 10px;
+  line-height: 20px;
+  margin-top: 26px;
+  border: 2px solid #7f7f7f;
+}
+
+.nav .search input[type="text"] {
+  width: 110px;
+  height: 100%;
+  border: 0;
+  background: none;
+  margin-left: 10px;
+}
+
+/* 广告位div容器 */
+
+.ad>img {
+  display: block;
+  width: 100%;
+}
+
+/* 底部 */
+
+/* 联系我们 */
+@font-face {
+  font-family: 'iconfont';
+  /* project id 1912714 */
+  src: url('https://at.alicdn.com/t/font_1912714_25hsrls1svu.eot');
+  src: url('https://at.alicdn.com/t/font_1912714_25hsrls1svu.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_1912714_25hsrls1svu.woff2') format('woff2'),
+    url('https://at.alicdn.com/t/font_1912714_25hsrls1svu.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_1912714_25hsrls1svu.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_1912714_25hsrls1svu.svg#iconfont') format('svg');
+}
+
+.footer {
+  width: 100%;
+  height: 363px;
+  background-color: #272626;
+}
+
+.contact {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contact>div {
+  position: absolute;
+}
+
+.contact .title {
+  position: absolute;
+  font-weight: bold;
+  width: 240px;
+  left: 309px;
+  top: -160px;
+  z-index: 2;
+}
+
+.contact .title>div:first-child {
+  font-size: 50px;
+  color: white;
+}
+
+.contact .title>div:first-child em {
+  color: #000;
+}
+
+.contact .title>div:last-child {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+}
+
+.contact .title>div:last-child::after {
+  content: '';
+  display: inline-block;
+  height: 12px;
+  width: 91px;
+  background-color: #47a9e2;
+  margin-left: 12px;
+
+}
+
+.contact .message {
+  width: 420px;
+  height: 480px;
+  background-color: #47a9e2;
+  left: 0px;
+  top: -185px;
+}
+
+.contact .message h2 {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 113px;
+  margin-left: 36px;
+}
+
+.contact .message ul,
+.contact .message p {
+  font-family: 'iconfont';
+  font-size: 14px;
+  color: #fff;
+  margin-left: 36px;
+}
+
+.contact .message ul {
+  margin-top: 42px;
+  line-height: 36px;
+}
+
+.contact .message p {
+  line-height: 26px;
+  margin-top: 10px;
+  margin-left: 61px;
+}
+
+.contact .message .icon {
+  font-family: 'iconfont';
+  font-size: 34px;
+  color: #fff;
+  position: absolute;
+  left: 26px;
+  bottom: 30px;
+}
+
+.contact .friendlink {
+  color: #fff;
+  left: 442px;
+  top: 47px;
+}
+
+.contact .friendlink h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact .friendlink p {
+  font-size: 12px;
+  padding-bottom: 34px;
+  line-height: 20px;
+}
+
+.contact .friendlink p:nth-child(4) {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #3d3c3c;
+}
+
+.contact .friendlink p:last-child {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.contact .friendlink p a {
+  color: #fff;
+  margin-right: 22px;
+}
+
+.contact .friendlink p a:last-child {
+  margin-right: 0;
+
+}
+
+.contact .form {
+  top: 43px;
+  right: 0px;
+  color: #fff;
+}
+
+.contact .form h3 {
+  font-size: 16px;
+}
+
+.contact .form div {
+  width: 230px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #7d7d7d;
+  font-size: 14px;
+  margin-top: 12px;
+  padding-left: 10px;
+}
+
+.contact .form div input {
+  width: 150px;
+  border: none;
+  background: none;
+  color: #fff;
+}
+
+.contact .form input[type="submit"] {
+  width: 240px;
+  height: 40px;
+  background-color: #393939;
+  margin-top: 34px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact .form input[type="submit"]:hover {
+  background-color: #47a9e2;
+}
+
+.contact>img {
+  position: absolute;
+  top: -113px;
+  right: 0px;
+}

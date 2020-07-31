@@ -1,0 +1,309 @@
+
+/* 头部 */
+.header {
+    /* 头部灰色背景容器 */
+    background-color: #4c4c4c;
+    height: 35px;
+    line-height: 35px;
+}
+
+.header .content {
+    /* 容器里面的内容 */
+    width: 1200px;
+    /* 容器居中 */
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.header .content p {
+    float: right;
+    color: #fff;
+    margin-left: 35px;
+}
+
+.header .content p img {
+    float: left;
+    margin-top: 10px;
+    margin-right: 6px;
+}
+
+.nav {
+    /* 头部导航 */
+   
+    width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+    line-height: 80px;
+    /* background-color: #ccc; */
+    position: relative;
+    /* background-color: red; */
+}
+
+.nav .logo {
+    position: absolute;
+    top: -35px;
+    left: 0;
+    -moz-box-shadow: 0px 0px 10px #D9D9D9;
+    -webkit-box-shadow: 0px 0px 10px #D9D9D9;
+    box-shadow: 0px 0px 10px #D9D9D9;
+}
+
+.nav ul {
+    margin-left: 169px;
+}
+
+
+.nav ul li {
+   
+    float: left;
+    font-size: 16px;
+    color: #333;
+    margin-left: 20px;
+    font-weight: 500;
+    position: relative;
+    cursor:pointer;
+    /* background-color: red; */
+}
+.nav .slide{
+				
+    z-index: 100;
+    position: absolute;
+     /* opacity: 1; */
+    
+    bottom: 0;
+    /* width: 100px; */
+    width: 0;
+    height: 5px;
+    background-color: #4169E1;
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1.05);	
+}
+
+/* .nav ul li:hover::after {
+
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #47a9e2;
+    position: absolute;
+    bottom: 0;
+} */
+
+.nav ul li:hover a {
+    color: #296c93;
+}
+
+
+
+.nav .search {
+    /* 搜索div */
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    border: 2px solid #7f7f7f;
+    border-radius: 10px;
+    margin-top: 28px;
+}
+
+.nav .search input[type="text"] {
+    /* 去掉输入框的默认边框 */
+    border: 0;
+    /* 去掉输入框的默认背景 */
+    background: none;
+    width: 110px;
+    margin-left: 10px;
+}
+
+.nav .search input[type="image"] {
+    margin-top: 2px;
+    margin-left: 4px;
+}
+
+.ad img{
+    display: block;
+    margin:0 auto;
+}
+
+.contact{
+
+    width: 100%;
+    background-color:#272626;
+   padding-bottom: 50px;
+}
+.contact .content{
+
+    width: 1200px;
+    margin: 0 auto;
+    
+    position: relative;
+}
+.contact .content .phone{
+
+   padding-left: 35px;
+    width: 385px;
+    background-color: #47a9e2;
+    position: absolute;
+    margin-top: -150px;
+    color: #fff;
+}
+.contact .content .phone h1{
+    padding-top: 112px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.contact .content .phone_list li{
+    font-size: 14px;
+height:  40px;
+
+ position: relative;
+}
+.contact .content .phone_list li img{
+
+top:50%;
+margin-top: -9px;
+position: absolute;
+display: block;
+}
+.contact .content .phone_list li span{
+   line-height: 40px;
+   margin-left: 29px;
+ 
+}
+.contact .content .phone_list .address
+{   height: 80px;  }
+.contact .content .phone_list .address span{
+   
+    
+    display: block;
+    line-height: 18px;
+    
+  padding-top: 35px;
+
+}
+.contact .content .link{
+margin-left: 444px;
+width: 470px;
+color:#fff;
+float: left;
+
+}
+.contact .content .link .firendLink h1{
+margin-top: 46px;
+margin-bottom: 16px;
+
+font-size: 22px;
+}
+.contact .content .link .firendLink li{
+
+    float: left;
+    margin-right: 5px;
+    font-size: 12px;
+    margin-top: 5px;
+    
+  
+}
+.contact .content .link .firendLink li a{
+    color:#fff;
+}
+.contact .content .link .nav_sites h1{
+    margin-top: 46px;
+    margin-bottom: 16px;
+
+}
+.contact .content .link .nav_sites li{
+
+    float: left;
+    font-size: 12px;
+    margin-right: 14px;
+}
+.contact .content .link .nav_sites li a{
+
+    color: #fff;
+}
+.contact .content .link hr{
+    background-color: #3d3c3c;
+    margin-top: 33px;
+    height:1px;
+     border:none;
+}
+.contact .content .link .copyright{
+line-height: 22px;
+font-size: 12px;
+
+}
+
+.contact .content .contactWay {
+    float: left;
+    margin-left: 20px;
+    top: 43px;
+    color: #fff;
+   
+}
+.contact .content .contactWay h3{
+
+    font-size: 16px;
+    margin-top: 46px;
+}
+.contact .content .contactWay div{
+margin-top: 13px;
+ width: 240px;
+   height: 42px;
+   background-color: #272626;
+   border: 1px solid #7d7d7d;
+   
+}
+.contact .content .contactWay div span{
+font-size: 14px;
+margin-left: 10px;
+}
+.contact .content .contactWay div input{
+    outline-style: none ;
+   height: 42px;
+   background-color: #272626;
+   border: 0px;
+   color: #fff;
+}
+.contact .content .contactWay button{
+background-color: #393939;
+color: #fff;
+width: 240px;
+height: 42px;
+font-size: 16px;
+margin-top: 30px;
+outline-style: none ;
+}
+
+
+.contact .contactUs 
+{
+
+    position: absolute;
+    left: 316px;
+    top: -120px;
+}
+.contact .contactUs p:nth-child(1){
+font-size: 50px;
+color: #fff;
+}
+.contact .contactUs  p:nth-child(1)>span{
+    color: #47a9e2;
+    font-size: 50px;
+}
+.contact .contactUs p:nth-child(2){
+     color: #fff;
+    margin-top: 15px;
+}
+.contact .contactUs p:nth-child(2)::after {
+	content: '';
+    display: inline-block;
+	width: 50px;
+	height: 10px;
+	background-color:#47a9e2;
+	margin-left: 15px;
+}
+.contact  .WMS
+{
+position: absolute;
+right: 0px;
+margin-top:-118px;
+}
